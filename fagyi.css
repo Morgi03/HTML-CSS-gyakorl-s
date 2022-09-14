@@ -1,0 +1,128 @@
+html{
+    max-width: 1023px;
+    margin: auto;
+    display: block;
+}
+
+body{
+    background-image: url("images/Puchimg.jpg");
+    background-size: contain;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#maindiv{
+    background-color: rgba(37, 36, 36, 0.658);
+    height: 1200px;
+    width: 90%;
+    margin: auto;
+    display: table;
+}
+h1{
+    font-size: 50px;
+    margin: auto;
+    display: table;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+p{
+    margin: 20px;
+    width: 95%;
+    margin-left: 40px;
+    text-align: justify;
+}
+
+h2{
+    margin: 20px;
+    padding-top: 15px;
+    color: azure;
+}
+a {
+    text-decoration: none;
+    color: black;
+
+}
+a:hover {
+    text-decoration: underline;
+}
+#navbar{
+    display: flex;
+    margin: 0 auto;
+    padding: 0px;
+    padding-left: 26px;
+
+}
+li{
+    padding: 5%;
+    display: block;
+    font-size: 20px;
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+li:hover{
+background-color: rgb(194 130 140 / 65%);
+transition: 1s ease;
+}
+#navdiv{
+    background-color: rgb(231 162 215 / 65%);
+    width: 90%;
+    margin: auto;
+    display: block;
+}
+
+#headerid{
+display: -webkit-box;
+margin: 0 auto;
+
+}
+
+.headerimgs{
+    height: 80px;
+}
+
+#footerid{
+    background-color: black;
+    color: white;
+    margin: auto;
+    width: 90%;
+    display: -webkit-box;
+}
+
+#img1{
+    float: right;
+    width: 15%;
+    margin: 20px;
+}
+#img2{
+    float: right;
+    width: 50%;
+    margin: 20px;
+}
+
+#map{
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.comment{
+    background-color: white;
+    color: black;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-left: 45px;
+}
+blockquote {
+    margin: 0 auto;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.commenter_name{
+    margin: 0 auto;
+}
+
+.commentd{
+    width: 93.83%;
+}
